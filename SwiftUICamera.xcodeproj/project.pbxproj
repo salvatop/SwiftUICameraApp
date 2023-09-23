@@ -13,6 +13,7 @@
 		B28FB0172ABE028D0011E864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28FB0162ABE028D0011E864 /* Preview Assets.xcassets */; };
 		B28FB01E2ABE03510011E864 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB01D2ABE03510011E864 /* CameraView.swift */; };
 		B28FB0202ABE03D70011E864 /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB01F2ABE03D70011E864 /* CaptureView.swift */; };
+		B2F24F442ABF76E000E9D6A6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F24F432ABF76E000E9D6A6 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B28FB0162ABE028D0011E864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B28FB01D2ABE03510011E864 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		B28FB01F2ABE03D70011E864 /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		B2F24F432ABF76E000E9D6A6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +57,8 @@
 		B28FB00E2ABE028A0011E864 /* SwiftUICameraApp */ = {
 			isa = PBXGroup;
 			children = (
+				B2F24F452ABF776D00E9D6A6 /* View */,
 				B28FB00F2ABE028A0011E864 /* SwiftUICameraApp.swift */,
-				B28FB01F2ABE03D70011E864 /* CaptureView.swift */,
-				B28FB01D2ABE03510011E864 /* CameraView.swift */,
-				B28FB0112ABE028A0011E864 /* ContentView.swift */,
 				B28FB0132ABE028D0011E864 /* Assets.xcassets */,
 				B28FB0152ABE028D0011E864 /* Preview Content */,
 			);
@@ -71,6 +71,17 @@
 				B28FB0162ABE028D0011E864 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2F24F452ABF776D00E9D6A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2F24F432ABF76E000E9D6A6 /* Coordinator.swift */,
+				B28FB01D2ABE03510011E864 /* CameraView.swift */,
+				B28FB0112ABE028A0011E864 /* ContentView.swift */,
+				B28FB01F2ABE03D70011E864 /* CaptureView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			files = (
 				B28FB01E2ABE03510011E864 /* CameraView.swift in Sources */,
 				B28FB0122ABE028A0011E864 /* ContentView.swift in Sources */,
+				B2F24F442ABF76E000E9D6A6 /* Coordinator.swift in Sources */,
 				B28FB0102ABE028A0011E864 /* SwiftUICameraApp.swift in Sources */,
 				B28FB0202ABE03D70011E864 /* CaptureView.swift in Sources */,
 			);
